@@ -80,7 +80,5 @@ if option == "n":
     quit()
 print(f"Hello {firstname} {lastname}!")
 print(f"You are a {age}-year-old apiring {dreamCareer} form {city}, {province}, {country}.")
-print(f"Its great to know hat your favourite food is {favourite_food} and that 
-you're learning {favourite_programming_languag}. ")    
-print(f"Keep practising every day—you are one step closer to becoming an 
-amazing programmer! ")
+print(f"Its great to know hat your favourite food is {favourite_food} and that you're learning {favourite_programming_languag}.")
+print(f"Keep practising every day—you are one step closer to becoming an amazing programmer! ")
