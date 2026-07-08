@@ -74,11 +74,11 @@ Have a wonderful day and keep practising Python!
 print("=" * 55)
 
 
-option = input("Do you want a summary detail of you card(y/n)").lower()
+option = input("Do you want a summary detail of you card(y/n): ").lower()
 if option == "n":
     print("BYE")
     quit()
-print(f"Hello {firstname} {lastname}!")
-print(f"You are a {age}-year-old apiring {dreamCareer} form {city}, {province}, {country}.")
-print(f"Its great to know hat your favourite food is {favourite_food} and that you're learning {favourite_programming_languag}.")
+print(f"\n\nHello {firstname} {lastname}!\n")
+print(f"You are a {age}-year-old apiring {dreamCareer} form {city}, {province}, {country}.\n")
+print(f"Its great to know hat your favourite food is {favourite_food} and that you're learning {favourite_programming_languag}.\n")
 print(f"Keep practising every day—you are one step closer to becoming an amazing programmer! ")
