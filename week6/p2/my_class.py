@@ -10,4 +10,5 @@ print(f"Names: {len(names)}, Scores: {len(scores)}")
 names.append("Dave")
 names.remove("Bob") 
 print(names)
-print(sum(scores))
+# Mean 
+print(sum(scores) / len(scores))
