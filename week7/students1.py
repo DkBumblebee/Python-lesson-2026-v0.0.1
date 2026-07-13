@@ -17,6 +17,7 @@ student["email"] = "thabosiba@gamil.com"
 
 # Update a value
 student["grade"] = 90
+student["Favourite fruits"]= ["Apples", "Bananas", "Orange"]
 
 name = "Thabo"
 if "name" in student:
@@ -32,10 +33,10 @@ print()
 for value in student.values():
     print(value)
 
-'''
 
+print()
 # Loop through both — most useful!
 for key, value in student.items():
     print(f"{key}: {value}")
 
-'''
+
